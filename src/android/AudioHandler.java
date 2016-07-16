@@ -35,6 +35,10 @@ import android.util.Log;
 import java.security.Permission;
 import java.util.ArrayList;
 
+import android.media.AudioTrack;
+import com.spoledge.aacdecoder.MultiPlayer;
+import com.spoledge.aacdecoder.PlayerCallback;
+
 import org.apache.cordova.PluginResult;
 import org.json.JSONArray;
 import org.json.JSONException;
