@@ -21,7 +21,7 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
 xmlns:android="http://schemas.android.com/apk/res/android"
 id="cordova-plugin-media"
-    version="2.3.2-dev">
+    version="2.3.3">
 
     <name>Media</name>
     <description>Cordova Media Plugin</description>
@@ -59,6 +59,8 @@ id="cordova-plugin-media"
         <source-file src="src/android/AudioHandler.java" target-dir="src/org/apache/cordova/media" />
         <source-file src="src/android/AudioPlayer.java" target-dir="src/org/apache/cordova/media" />
         <source-file src="src/android/FileHelper.java" target-dir="src/org/apache/cordova/media" />
+		<source-file src="src/android/aacdecoder.jar" target-dir="libs/" framework="true" />
+		<source-file src="src/android/armeabi.jar" target-dir="libs/" framework="true" />
      </platform>
 
      <!-- amazon-fireos -->
